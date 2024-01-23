@@ -1,0 +1,13 @@
+wallet: {public_key: 3MNUV7aPefmo3AL7tsYiTuaVMdiMXZ8YmdqbrGw354Fv}
+pool: {server: 127.0.0.1, port: 10001, threads: 2}
+blockchain: {server: 127.0.0.1, port: 10002, threads: 2}
+metronome: {server: 127.0.0.1, port: 10003, threads: 2}
+monitor: {server: 127.0.0.1, port: 10004, threads: 2}
+validator:
+  port: 10005
+  public_key: 7zZcWmTCHEvvGCb3cH6MdW53yHdfqR5SB7myW7FnjCEj
+  proof_pow: {enable: false, threads_hash: 2}
+  proof_pom: {enable: true, threads_hash: 2, memory: 1G}
+  proof_pos: {enable: false, threads_hash: 2, disk: 10G, buckets: 256, bucket_size: 32768,
+    threads_io: 1, vault: ~/dsc-pos.vault}
+  fingerprint: AJ2Ewr1EyKwhU2W3p8BFgM
