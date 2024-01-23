@@ -1,23 +1,6 @@
 # Centralized-Blockchain
 
-To execute the code in checkpoint1:
-1. move to Project-v1 folder in Checkpoint-1.
-2. execute the command "mvn clean install"
-3. execute the command "java -jar target/DataSysCoinv1-0.0.1-SNAPSHOT-jar-with-dependencies.jar <argument-1>"
-4. example of running a wallet create command "java -jar target/DataSysCoinv1-0.0.1-SNAPSHOT-jar-with-dependencies.jar wallet create"
-
-To run checkpoint2:
-1. move to Checkpoint-2 folder
-2. Download Project-v1.zip
-3. unzip the folder Project-v1.zip
-
-Monitor, Metronome, pool, Blockchain, validator.
-Start the servers in the above-provided order.
-
-
-**Checkpoint-3-Final is the final folder of the project. (README file is also provided in the folder Checkpoint-3-Final/Project-v1)(same as below)**
-
-Makefile commands (enter into the folder that contains the Makefile Checkpoint-3-Final/Project-v1):
+**Makefile commands (enter into the folder that contains the Makefile db-coin/):**
 
     1. make init
         installs the required software to run the program.
@@ -26,7 +9,7 @@ Makefile commands (enter into the folder that contains the Makefile Checkpoint-3
     3. make all
         compiles the code (enter this command after downloading the software using make init).
 
-Commands to run the components(enter into Checkpoint-3-Final/Project-v1):
+**Commands to run the components(enter into db-coin/):**
 
     the command to run the components is - java -jar target/DataSysCoinv1-0.0.1-SNAPSHOT-jar-with-dependencies.jar <arguments>
     
