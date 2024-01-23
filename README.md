@@ -25,7 +25,7 @@
         
 *NOTE: dsc-config.yaml also contains the IP and port of the monitor.*
 
-Commands for evaluation(enter into Checkpoint-3-Final/Project-v1):
+**Commands for evaluation(enter into db-coin):**
 
     1. latency
         java -jar target/DataSysCoinv1-0.0.1-SNAPSHOT-jar-with-dependencies.jar wallet latency <numOfTransactions> <amount> <recipientPublicAddress>\\
